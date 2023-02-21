@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NewsModule } from './news/news.module';
+import {HttpClientModule} from "@angular/common/http";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
     declarations: [
@@ -15,6 +17,8 @@ import { NewsModule } from './news/news.module';
         BrowserModule,
         AppRoutingModule,
         NewsModule,
+        HttpClientModule,
+        FormsModule,
     ]
 })
 export class AppModule { }

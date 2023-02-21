@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
   public date:any = Date.now();
+  public search:any ='';
 }
